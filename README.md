@@ -1,4 +1,4 @@
-# AWS Cloud Practioner Certification Prep 2023
+# AWS Cloud Practioner Certification CLF-C01 Prep Notes 2023
 
 This repository contains various resources to help pass the AWS Cloud Practioner Certification.
 
@@ -18,4 +18,21 @@ This repository contains various resources to help pass the AWS Cloud Practioner
 3. [YouTube freeCodeCamp](https://www.youtube.com/watch?v=SOTamWNgDKc) freeCodeCamp video is good to review to ensure a full understanding of the broader scope.
 
 ## AWS Cloud Practitioner 2023 Study Notes
+
+* What is the value of the cloud?
+* What is the AWS shared responsibility model?
+* What are AWS security best practices?
+* How does AWS Cloud model costs?
+* What are the economics of the cloud?
+* What are AWS billing practices?
+* What are the core AWS services offered?
+* What are the compute options offered by AWS ?
+* What are the network options offered by AWS?
+* What are the database technologies offered by AWS?
+* What are the various storage options on AWS?
+* What are the common use-cases that AWS can support?
+
+_Out of scope_ Business Applications, design, code, implementation, troubleshooting, migration, load testing etc.
+
+
 
