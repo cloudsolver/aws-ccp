@@ -4,4 +4,4 @@ This repository contains various resources to help pass the AWS Cloud Practioner
 
 ## Resources
 
-1. (AWS Web Services Overiew | https://docs.aws.amazon.com/whitepapers/latest/aws-overview/introduction.html?did=wp_card&trk=wp_card)
+1. [AWS Web Services Overiew] (https://docs.aws.amazon.com/whitepapers/latest/aws-overview/introduction.html?did=wp_card&trk=wp_card)
