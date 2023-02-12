@@ -1,2 +1,3 @@
-# aws-cpc
-AWS Cloud Practioner Certification Prep 2023
+# AWS Cloud Practioner Certification Prep 2023
+
+This repository contains various resources
