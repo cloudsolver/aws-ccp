@@ -32,7 +32,9 @@ This repository contains various resources to help pass the AWS Cloud Practioner
 * What are the various storage options on AWS?
 * What are the common use-cases that AWS can support?
 
+AWS training and certification has CLF-001 sample exam questions [here](https://d1.awsstatic.com/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Sample-Questions.pdf)
+
 _Out of scope_ Business Applications, design, code, implementation, troubleshooting, migration, load testing etc.
 
 
-
+## [Next: Value of AWS Cloud](./01-Value_Of_AWS_Cloud.md)
