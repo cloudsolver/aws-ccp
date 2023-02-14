@@ -3,7 +3,7 @@
  For example, a web-based enterprise application will utilize most if no all the layers and select technologies.
 ## Architecture
 
-1. Elasticity
+1. Elasticity: The ability to add or remove resources based on demand.
 1. Fault Tolerance
 1. High Availability
 1. Principle of least priviledge 

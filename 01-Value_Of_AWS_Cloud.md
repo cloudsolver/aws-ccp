@@ -20,3 +20,5 @@ AWS is faster, cheaper, durable and more reliable than most internally managed d
 1. Elasticity: Demand based capacity provisioning allows for optimal usage of resources that minimizes waste.
 1. Agility: AWS Services can help customers innovate faster allowing for reduced time to market.
 1. Durability: AWS provides data services that offer long-term data protection and storage.
+
+## Review [AWS Core Services](./05-AWS_Core_Services.md)
