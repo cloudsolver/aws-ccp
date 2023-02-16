@@ -19,3 +19,8 @@
         * Save upto 72% off of On-Demand.
         * Use Case: For flexibility across various services like Lambda, Fargate, and EC2.
         * This is a billing convenience nothing to do with a capacity reservation.
+* Lambda Pricing
+    * Computer Time - no charge for times that code is not running.
+    * Duration - duration of compute and memory usage while execution is counted.
+    * Free Tier - the free tier includes 1 million free requests each month
+    * 
