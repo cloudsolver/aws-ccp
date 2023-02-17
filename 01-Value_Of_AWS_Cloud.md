@@ -41,8 +41,8 @@ The following cloud terminology is important
     * fully independent
     * services are resources vary by region
     * no automagic replication across regions - this needs to be designed if required
-1. Availability Zones
-    * one or many per region e.g. N.Virginia region has 6 AZs
+1. [Availability Zones](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/)
+    * A logical group of datacenters geographically clustered e.g. N.Virginia region has 6 AZs
     * AZ has multiple datacenters
     * AZ has separate power supply 
     * Each AZ is physically separated
