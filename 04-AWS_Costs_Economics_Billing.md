@@ -23,4 +23,12 @@
     * Computer Time - no charge for times that code is not running.
     * Duration - duration of compute and memory usage while execution is counted.
     * Free Tier - the free tier includes 1 million free requests each month
-    * 
+    
+    # Leveraging the Well-Architected Framework
+[AWS Well Architected](https://aws.amazon.com/architecture/well-architected/?wa-lens-whitepapers.sort-by=item.additionalFields.sortDate&wa-lens-whitepapers.sort-order=desc&wa-guidance-whitepapers.sort-by=item.additionalFields.sortDate&wa-guidance-whitepapers.sort-order=des=) helps cloud architects build secure, high-performaning, resilient, and efficient infrastructure for a variety of applications and workloads.
+    1. Operational Excellence: Plan for and anticipate failure. Deploy smaller, reversible changes. Script operations as code. Learn from failure and refine.
+    2. Security
+    3. Reliability
+    4. Performance Efficiency
+    5. Cost Optimization
+    6. Sustainability
