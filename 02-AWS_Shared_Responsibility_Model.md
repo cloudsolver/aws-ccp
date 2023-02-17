@@ -10,3 +10,12 @@ As a customer of AWS - you are not responsible for the hardware, software, netwo
 Depending on the Cloud Model - AWS and it's customer share responsibilities for different layers. However, the customer is Never responsible for the virtualization or the underlying physical infrastructure.
 
 <img src="https://img.alicdn.com/tfs/TB1WyglO7voK1RjSZFwXXciCFXa-2305-1450.png" width="800px">
+
+
+AWS is responsible for protecting and securing their infrastructure like whatever is in their data centers. Physical security of AWS data center. AWS maintains UPS, CRAC, fire suppression systems and more. AWS is responisble for any managed service and underlying software, operating system.
+
+You are responsible for your data and applications. Application Data including encryption options. Security configuration - rotating credentials, APIs, VPC access etc. Patching guest operating system of EC2 instances. IAM - application security, identity and access management for systems. Network traffice - you are responsible for it including group firewall configuration.
+
+
+Report AWS abuse resource
+Rotate your keys and change your password, then contact the AWS Trust & Safety team using the Report Amazon AWS abuse form.
