@@ -4,20 +4,21 @@
 ## Architecture
 
 1. Elasticity: The ability to add or remove resources based on demand.
-1. Fault Tolerance
-1. High Availability
-1. Principle of least priviledge 
-1. Scalability
-1. Trusted Advisor 
-
+1. [Fault Tolerance](https://en.wikipedia.org/wiki/Fault_tolerance): Is the property that enables a system to continue operating properly in the event of a failure of one or more faults withing some if its components.
+1. [High Availability](https://redis.com/blog/high-availability-architecture/): Property of a system to serve the business without failure over a given period of time.
+1. [Principle of least priviledge](https://www.cisa.gov/uscert/bsi/articles/knowledge/principles/least-privilege): Every program and every user of the system should operate using the least set of privileges necessary to complete the job. Primarily, this principle limits the damage that can result from an accident or error.
+1. [Scalability](https://resources.sei.cmu.edu/asset_files/TechnicalNote/2006_004_001_14681.pdf): Scalability is the ability to handle increased workload by repeatedly applying a cost-effective strategy for extending a system’s capacity
+1. [Trusted Advisor](https://aws.amazon.com/premiumsupport/technology/trusted-advisor/)
+    * Provides recommendations that help you follow AWS best practices.
+    * Benefits: cost optimization, performance, security, fault tolerance and service quotas.
 
 ## Billing
-1. [Consolidated billing](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/consolidated-billing.html)
-    * AWS Organizations has a management account that pays the charges of all the member accounts.
-    * Multiple AWS Accounts can be consolidated for billing and payments.
 1. [AWS Organization](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_introduction.html)
     * Account management services that enables you to consolidate multiple AWS Accounts into an organization that you create and centrally manage.
     * Use case: ease of billing, budgetary, security and compliance needs.
+1. [Consolidated billing](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/consolidated-billing.html)
+    * AWS Organizations has a management account that pays the charges of all the member accounts.
+    * Multiple AWS Accounts can be consolidated for billing and payments.
 ## Security
 1. [Firewall](https://aws.amazon.com/network-firewall/)
     * AWS Network Firewall automatically scales your network firewall to protect your managed infrastructure.
@@ -205,7 +206,7 @@
     * Managed Streaming for Apache Kafka.
     * Usecase: Ingest and process log and event streams, run centralized state or data buses, power your event-driven systems.
 ## Artificial Intelligence and Machine Learning
-1. [Rekognition](https://aws.amazon.com/rekognition/)
+1. [Rekognition](https://aws.amazon.com/rekognition/)usecases:
     * Automate image and video analysis
     * Identify custom labels in image and video
     * Use cases: Analyze pizza images to ensure toppings
