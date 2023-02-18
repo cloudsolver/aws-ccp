@@ -1,5 +1,7 @@
 # AWS Costs, Economics and Billing Practices
 
+_16% of the exam_questions about 8-10 questions_
+
 * EC2 Instances are priced as follows
     * On-Demand: EC2 capacity billed to the second.
         * Pay for what you use.
@@ -26,9 +28,44 @@
     
     # Leveraging the Well-Architected Framework
 [AWS Well Architected](https://aws.amazon.com/architecture/well-architected/?wa-lens-whitepapers.sort-by=item.additionalFields.sortDate&wa-lens-whitepapers.sort-order=desc&wa-guidance-whitepapers.sort-by=item.additionalFields.sortDate&wa-guidance-whitepapers.sort-order=des=) helps cloud architects build secure, high-performaning, resilient, and efficient infrastructure for a variety of applications and workloads.
-    1. Operational Excellence: Plan for and anticipate failure. Deploy smaller, reversible changes. Script operations as code. Learn from failure and refine.
-    2. Security
-    3. Reliability
-    4. Performance Efficiency
-    5. Cost Optimization
-    6. Sustainability
+
+1. Operational Excellence
+    * Plan for and anticipate failure. 
+    * Deploy smaller, reversible changes. 
+    * Script operations as code. 
+    * Learn from failure and refine.
+    * Use case: AWS Code Commit for versioning application as well as infrastructure.
+1. Security
+    * Automate security tasks.
+    * Encrypt data in transit and at rest.
+    * Assign only the least privileges required.
+    * Track who did what and when.
+    * Ensure security at all application layers.
+    * Use case: CloudTrail to log all actions performed on your account.
+1. Reliability
+    * Recover from failure automatically.
+    * Scale horizontally for resilience.
+    * Stop guessing capacity.
+    * Manage change through automation.
+    * Test recovery procedures.
+    * Use Case: RDS and multi-AZ deployments.
+1. Performance Efficiency
+    * Use serverless architectures first.
+    * Use multi-region deployments.
+    * Delegate tasks to a cloud vendor.
+    * Experiement with virtual resources.
+    * Use Case: Lambda to run serverless compute workloads.
+1. Cost Optimization
+    * Utilize consumption-based pricing.
+    * Implement Cloud Financial Management.
+    * Measure overall efficiency.
+    * Pay only for resources your application requires.
+    * Use case: S3 Intelligent Tiering to automatically move your data between access tiers based on usage patterns.
+1. Sustainability
+    * Understand your impact.
+    * Establish sustainability goals.
+    * Maximize utilization.
+    * Use managed services.
+    * Reduce downstream impact.
+    * Use Case: EC2 Auto-scaling to scale down when demand is low.
+

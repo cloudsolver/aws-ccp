@@ -1,5 +1,6 @@
 # AWS Security Best Practices
 
+_This is 25% of the weight of the exam_
 
 ## Root User
 * Automatically created when you create an AWS account
@@ -19,3 +20,72 @@ Use the search feature for easy access.
     * Programmatic access provides access to your AWS resources
 * AWS SDK - can be leveraged to make changes to the environment via programmatic access. 
 
+# Concepts
+
+1. Authentication
+    * An identity that is verified.
+    * Credentials such as username and password.
+1. Authorization
+    * Determines which services and resources the idenitity has access to.
+    * Permissions are granted via a policy.
+
+1. Least Privilege
+    * Give a user the minimum access required to get the job done.
+
+# IAM Permissions
+
+1. Users
+    * Entities in IAM to represent a person or application that can be given access to your AWS resources.
+    * Applications can be users. This is normally done via access keys.
+1. Group
+    * Collection of users - conveniently apply common permissions.
+    * This is not EC2 Security Group - that is a firewall.
+1. Roles
+    * Roles define access permissions and are temporarily assumed by an IAM user or service.
+    * DevOps role, Lambda-Execution role are examples.
+    * Access is assigned using policies.
+    * You grant users in one AWS account access to resources in another AWS acccount using roles.
+    * Attach a role to an EC2 instance for access to S3. Applications running on that instance will have access to S3 via roles. This is useful because the application will not need credentials or access keys. This is most secure.
+1. Policies
+    * You manage persmissions for IAM users, groups, and roles by creating a policy document in JSON format and attaching it.
+    * User - {Policy:Access} - Resource
+    * Developer Group = {Policy: Resource Access} - Resource
+    * Role - {Policy:Allow-S3-Access} - S3
+    * How to limit access to an Amazeon S3 to specific users only? You can add a bucket access policy directly to an Amazon S3 bucket to grant IAM users accesss. I wonder if there is another way, create a special bucket access group with policy to the group, and then add users to the group. Or add users to the policy directly.
+
+1. IAM Credentials Report can list all your IAM users in this account and the status of their various credentials. 
+
+## Security Services
+
+1. [WAF](https://aws.amazon.com/waf/) is a Web Application Firewall that can protect against common attacks such as XSS or SQL injection.
+1. [Shield](https://aws.amazon.com/shield/) is a managed DDOS protection service. Sheild standard is free but Sheild Advanced provides access to AWS experts for a fee.
+CloudFront, Route53, Elastic Load Balancing, and AWS Global Accelerator.
+    * Receive real-time notifications of suspected DDoS incidents via CloudWatch metrics and assistance from AWS during the attack.
+    * Automatically scrub bad traffic at specific layers: layer 3,4 and 7. Minimize application downtime and latency. Monitor and protect up to 1000 resource types.
+1. [Macie](https://aws.amazon.com/macie/) helps you discover and protect sensitive data. Uses maching learning, evaluates S3 environment, uncovers PII information. YOu can discover passport numbers stored on S3 using Macie.
+1. [Config](https://aws.amazon.com/config/) assess, audit, and evaluate configurations of your resources.
+    * Record and altert by storing in S3.
+    * Use cases: Streamline operational troubleshooting and change management. Deploy a complicant-as-code framework. Continually audit security monitoring and analysis.
+1. [GuardDuty](https://aws.amazon.com/guardduty/) - Protect your AWS accounts with intelligent threat detection.
+    * Continuously monitors workload for malicious activity and delivers detailed security findings for visibility and remediation. Network and API calls.
+    * Use cases: Improve security operations visibility. Assist security analysts in investigations. Identify files containing malware. Route insightful information on security findings.
+1. [Inspector](https://aws.amazon.com/inspector/) - automate vulnerability management at scale in EC2.
+    * Automated vulnerability management service that continually scans workloads for software vulnerabilities and unintended network exposure. EC2.
+    * Use cases: Quickly discover vulnerabilities in compute workloads. Prioritize patch remediation. Meet compliance requirements. Identify zero-day vulnerabilities sooner.
+1. [Artifact](https://aws.amazon.com/artifact/) Access Independent Software Vendor compliance report.
+    * Use artifact to SOC and PCI compliance reports. You can generate the report. Access to the report can be provided. Self-service portal.
+1. [Cognito](https://aws.amazon.com/cognito/) - customer identity and acess management.
+    * Delivery frictionless CIAM. Adaptive authentication, support compliance, and data residency requirements. Scale to millions of users with a fully managed, high-performantm and reliable identity store. Federate sign-in using OIDC or SAML 2.0 connect to a broad group of AWS services and products.
+    * Use-cases: Social media accounts to log in to your application.
+
+# Data Encryption and Secrets Management Services
+
+1. [KMS](https://aws.amazon.com/kms/) Key Management Service. Create and control keys used to encrypt or digitally sign your data.
+    * Centrally manage keys and define poilicies across integrated services and application from a single point. Encrypt data within your applications with the AWS Encryption SDK data encryption library.
+    * Encrypt EBS volume using KMS.
+1. [CloudHSM](https://aws.amazon.com/cloudhsm/) Encryption Key Generator. Manage single-tenant hardware security modules (HSMs) on AWS.
+    * Generate and use cryptographic keys on dedicated FIPS 140-2 Level 3 single-tenant HSM instances. Deploy workloads with high reliability and low latency, and help meet regulatory compliance. Pay by the hour, and backup and shut down HSMS when they're not needed. Manage HSM capacity and control your costs by adding and removing HSMs from your cluster.
+1. [Secrets Manager](https://aws.amazon.com/secrets-manager/) centrally manage the lifecycle of secrets.
+    * Use cases: Store secrets securely, manage acess with fine-grained policies, automate secrets rotation, audit and monitor secrets usage.
+    * Database credentials, API keys, encrypt secrets at rest, integreates with RDS, DOcumentDB, Redshift.
+    * Retrieve database credentials needed for your application code.  Secrets Manager allows you to retrieve database credentials with a call to Secrets Manager APIs, removing the need to hardcode sensitive information in plain text within your application code.
