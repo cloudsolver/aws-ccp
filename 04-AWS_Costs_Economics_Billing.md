@@ -26,46 +26,24 @@ _16% of the exam_questions about 8-10 questions_
     * Duration - duration of compute and memory usage while execution is counted.
     * Free Tier - the free tier includes 1 million free requests each month
     
-    # Leveraging the Well-Architected Framework
-[AWS Well Architected](https://aws.amazon.com/architecture/well-architected/?wa-lens-whitepapers.sort-by=item.additionalFields.sortDate&wa-lens-whitepapers.sort-order=desc&wa-guidance-whitepapers.sort-by=item.additionalFields.sortDate&wa-guidance-whitepapers.sort-order=des=) helps cloud architects build secure, high-performaning, resilient, and efficient infrastructure for a variety of applications and workloads.
+   ## Pricing, Billing and Governance
 
-1. Operational Excellence
-    * Plan for and anticipate failure. 
-    * Deploy smaller, reversible changes. 
-    * Script operations as code. 
-    * Learn from failure and refine.
-    * Use case: AWS Code Commit for versioning application as well as infrastructure.
-1. Security
-    * Automate security tasks.
-    * Encrypt data in transit and at rest.
-    * Assign only the least privileges required.
-    * Track who did what and when.
-    * Ensure security at all application layers.
-    * Use case: CloudTrail to log all actions performed on your account.
-1. Reliability
-    * Recover from failure automatically.
-    * Scale horizontally for resilience.
-    * Stop guessing capacity.
-    * Manage change through automation.
-    * Test recovery procedures.
-    * Use Case: RDS and multi-AZ deployments.
-1. Performance Efficiency
-    * Use serverless architectures first.
-    * Use multi-region deployments.
-    * Delegate tasks to a cloud vendor.
-    * Experiement with virtual resources.
-    * Use Case: Lambda to run serverless compute workloads.
-1. Cost Optimization
-    * Utilize consumption-based pricing.
-    * Implement Cloud Financial Management.
-    * Measure overall efficiency.
-    * Pay only for resources your application requires.
-    * Use case: S3 Intelligent Tiering to automatically move your data between access tiers based on usage patterns.
-1. Sustainability
-    * Understand your impact.
-    * Establish sustainability goals.
-    * Maximize utilization.
-    * Use managed services.
-    * Reduce downstream impact.
-    * Use Case: EC2 Auto-scaling to scale down when demand is low.
-
+    1. Application Disovery Service
+    1. Budgets
+    1. Cost and Usage Reports
+    1. Cost Explorer
+    1. Support Plans
+       1. Basic
+       1. Developer
+       1. Business
+       1. Enterprise
+    1. Organizations
+    1. Control Tower
+    1. Systems Manager
+    1. Trusted Advisor
+    1. Marketplace
+    1. AWS Partner Network (APN)
+    1. Managed Services
+    1. Professional Services
+    1. AWS License Manager
+    1. AWS Certificate Manager
