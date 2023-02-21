@@ -1,4 +1,4 @@
-# Value of AWS Cloud
+# 01 Value of AWS Cloud
 
 AWS is faster, cheaper, durable and more reliable than most internally managed data centers.
 ### AWS allows for 
@@ -35,28 +35,29 @@ The following cloud terminology is important
 1. Hybrid Cloud: AWS Direct Connect service connects customer's data center with Amazon.
 
 ### AWS Regions, AZs and Region
-
-1. Region
-    * if one is impacted, another will not
-    * fully independent
-    * services are resources vary by region
-    * no automagic replication across regions - this needs to be designed if required
+Amazon EC2 is hosted in multiple locations world-wide. These locations are composed of AWS Regions, Availability Zones, Local Zones, AWS Outposts, and Wavelength Zones.
+1. [Region](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html)
+    * Is a separate geographic area. Therefore if one is impacted by a natural disaster, chances are that another will not.
+    * Regions are fully independent.
+    * Services are resources vary by region.
+    * No automagic replication across regions - this needs to be designed if required.
 1. [Availability Zones](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/)
     * A logical group of datacenters geographically clustered e.g. N.Virginia region has 6 AZs
-    * AZ has multiple datacenters
-    * AZ has separate power supply 
-    * Each AZ is physically separated
-    * Low latency connected within a region
-    * Allows for high availability. If applications are distrbuted
-1. Data Centers
-    * physical building that contain servers which make up an AZ
+    * AZ has multiple datacenters.
+    * AZ has separate power supply. 
+    * Each AZ is physically separated.
+    * Low latency between AZs connected within a region.
+    * Allows for high availability. If applications are distrbuted - deployed to multiple AZs with load balancing.
+1. [Local Zones](https://aws.amazon.com/about-aws/global-infrastructure/localzones/)
+    * A Local Zone is an extension of an AWS Region in geographic proximity to your users. Local Zones have their own connections to the internet and support AWS Direct Connect, so that resources created in a Local Zone can serve local users with low-latency communications. 
+    * Local Zones provide you the ability to place resources, such as compute and storage, in multiple locations closer to your end users.
+    * Use case: Run latency sensitive applications closer to the end users.
+1. [Wavelength Zone](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html#concepts-wavelength-zones)
+    * A Wavelength Zone is an isolated zone in the carrier location where the Wavelength infrastructure is deployed. Wavelength Zones are tied to a Region. A Wavelength Zone is a logical extension of a Region, and is managed by the control plane in the Region.
 1. Edge Locations - these are cached closest to audience.
-    * Mini-data centers
-    CloudFront is a CDN 
+    * Mini-data centers created for low latency between applications and users.
     * There are many more edge locations than AZs or regions.
 
-* How do you design for High Availability?
-    * Deploy to a multi-AZ environment. 
 
  # Leveraging the Well-Architected Framework
 [AWS Well Architected](https://aws.amazon.com/architecture/well-architected/?wa-lens-whitepapers.sort-by=item.additionalFields.sortDate&wa-lens-whitepapers.sort-order=desc&wa-guidance-whitepapers.sort-by=item.additionalFields.sortDate&wa-guidance-whitepapers.sort-order=des=) helps cloud architects build secure, high-performaning, resilient, and efficient infrastructure for a variety of applications and workloads.
@@ -66,7 +67,7 @@ The following cloud terminology is important
     * Deploy smaller, reversible changes. 
     * Script operations as code. 
     * Learn from failure and refine.
-    * Use case: AWS Code Commit for versioning application as well as infrastructure.
+    * Use case: AWS CodeCommit for versioning application as well as infrastructure.
 1. Security
     * Automate security tasks.
     * Encrypt data in transit and at rest.
@@ -80,7 +81,7 @@ The following cloud terminology is important
     * Stop guessing capacity.
     * Manage change through automation.
     * Test recovery procedures.
-    * Use Case: RDS and multi-AZ deployments.
+    * Use Case: RDS on multi-AZ deployments.
 1. Performance Efficiency
     * Use serverless architectures first.
     * Use multi-region deployments.
@@ -102,4 +103,4 @@ The following cloud terminology is important
     * Use Case: EC2 Auto-scaling to scale down when demand is low.
 
 
-## Review [AWS Core Services](./05-AWS_Core_Services.md)
+## [NEXT](./05-AWS_Core_Services.md)

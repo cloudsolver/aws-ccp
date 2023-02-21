@@ -3,12 +3,21 @@
 _This is 25% of the weight of the exam_
 
 ## Root User
-* Automatically created when you create an AWS account
-* Protect with MFA (Multi-factor authentication)
-* Only root user can delete the account
-* There is just one root user
+* Automatically created when you create an AWS account.
+* Only root user can delete the account.
+* There is just one root user.
+* Change your account settings. This includes the account name, email address, root user password, and root user access keys. 
+* Restore IAM user permissions. If the only IAM administrator accidentally revokes their own permissions, you can sign in as the root user to edit policies and restore those permissions.
+* Activate IAM access to the Billing and Cost Management console.
+* View certain tax invoices. An IAM user with the aws-portal:ViewBilling permission can view and download VAT invoices from AWS Europe, but not AWS Inc. or Amazon Internet Services Private Limited (AISPL).
+* Close your AWS account.
+* Register as a seller in the Reserved Instance Marketplace.
+* Configure an Amazon S3 bucket to enable MFA (multi-factor authentication).
+* Edit or delete an Amazon Simple Storage Service (Amazon S3) bucket policy that includes an invalid virtual private cloud (VPC) ID or VPC endpoint ID
+* Sign up for AWS GovCloud (US).
+* Request AWS GovCloud (US) account root user access keys from AWS Support.
 
-_Best Practice:_ Identity and Access Management - create a new user and provide a role. Never use the root user unless absolutely required.
+_Best Practice:_ Identity and Access Management - create a new user and provide a role. Never use the root user unless absolutely required. Protect root account with MFA (Multi-factor authentication).
 
 VPC - Vitual Private Cloud. Default VPC will always be created for you.
 * AWS Management Console
@@ -34,6 +43,8 @@ Use the search feature for easy access.
 
 # IAM Permissions
 
+1. [IAM](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html)
+    * A web service that allows you securely control access to AWS resources.
 1. Users
     * Entities in IAM to represent a person or application that can be given access to your AWS resources.
     * Applications can be users. This is normally done via access keys.
@@ -52,7 +63,6 @@ Use the search feature for easy access.
     * Developer Group = {Policy: Resource Access} - Resource
     * Role - {Policy:Allow-S3-Access} - S3
     * How to limit access to an Amazeon S3 to specific users only? You can add a bucket access policy directly to an Amazon S3 bucket to grant IAM users accesss. I wonder if there is another way, create a special bucket access group with policy to the group, and then add users to the group. Or add users to the policy directly.
-
 1. IAM Credentials Report can list all your IAM users in this account and the status of their various credentials. 
 
 ## Security Services
@@ -89,3 +99,5 @@ CloudFront, Route53, Elastic Load Balancing, and AWS Global Accelerator.
     * Use cases: Store secrets securely, manage acess with fine-grained policies, automate secrets rotation, audit and monitor secrets usage.
     * Database credentials, API keys, encrypt secrets at rest, integreates with RDS, DOcumentDB, Redshift.
     * Retrieve database credentials needed for your application code.  Secrets Manager allows you to retrieve database credentials with a call to Secrets Manager APIs, removing the need to hardcode sensitive information in plain text within your application code.
+
+##  [BACK](02-AWS_Shared_Responsibility_Model.md)  |  [NEXT](./04-AWS_Costs_Economics_Billing.md)
