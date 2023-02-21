@@ -1,7 +1,7 @@
 # AWS Shared Responsibility Model
 
-AWS has the responsibilty OF the cloud.
-Customer has the responsibility in the cloud.
+### "AWS has the responsibilty OF the cloud. Customer has the responsibility IN the cloud."
+
 <img src="https://d1.awsstatic.com/security-center/Shared_Responsibility_Model_V2.59d1eccec334b366627e9295b304202faf7b899b.jpg" width="800px">
 Source: https://aws.amazon.com/compliance/shared-responsibility-model/
 
@@ -17,5 +17,8 @@ AWS is responsible for protecting and securing their infrastructure like whateve
 You are responsible for your data and applications. Application Data including encryption options. Security configuration - rotating credentials, APIs, VPC access etc. Patching guest operating system of EC2 instances. IAM - application security, identity and access management for systems. Network traffice - you are responsible for it including group firewall configuration.
 
 
-Report AWS abuse resource
+### Report AWS abuse resource
 Rotate your keys and change your password, then contact the AWS Trust & Safety team using the Report Amazon AWS abuse form.
+
+
+##  [BACK](./05-AWS_Core_Services.md)  |  [NEXT](./03-AWS_Security_Best_Practices.md)
