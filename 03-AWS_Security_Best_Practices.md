@@ -41,7 +41,7 @@ Use the search feature for easy access.
 1. Least Privilege
     * Give a user the minimum access required to get the job done.
 
-# IAM Permissions
+# IAM 
 
 1. [IAM](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html)
     * A web service that allows you securely control access to AWS resources.
@@ -51,6 +51,7 @@ Use the search feature for easy access.
 1. Group
     * Collection of users - conveniently apply common permissions.
     * This is not EC2 Security Group - that is a firewall.
+    * Can you nest groups? Can you have group inheritance? Are there unlimited groups that can be created?
 1. Roles
     * Roles define access permissions and are temporarily assumed by an IAM user or service.
     * DevOps role, Lambda-Execution role are examples.
@@ -63,7 +64,8 @@ Use the search feature for easy access.
     * Developer Group = {Policy: Resource Access} - Resource
     * Role - {Policy:Allow-S3-Access} - S3
     * How to limit access to an Amazeon S3 to specific users only? You can add a bucket access policy directly to an Amazon S3 bucket to grant IAM users accesss. I wonder if there is another way, create a special bucket access group with policy to the group, and then add users to the group. Or add users to the policy directly.
-1. IAM Credentials Report can list all your IAM users in this account and the status of their various credentials. 
+1. IAM Credentials Report 
+    * Assistance with compliance and auditing by offering a downloadable report that lists all your IAM users in this account and the status of their various credentials including MFA devices in your account.
 
 ## Security Services
 
@@ -90,8 +92,10 @@ CloudFront, Route53, Elastic Load Balancing, and AWS Global Accelerator.
 
 # Data Encryption and Secrets Management Services
 
-1. [KMS](https://aws.amazon.com/kms/) Key Management Service. Create and control keys used to encrypt or digitally sign your data.
-    * Centrally manage keys and define poilicies across integrated services and application from a single point. Encrypt data within your applications with the AWS Encryption SDK data encryption library.
+1. [KMS](https://aws.amazon.com/kms/) 
+    * Key Management Service. Create and control encryption keys managed by AWS used to encrypt or digitally sign your data.
+    * Centrally manage keys and define policies across integrated services and application from a single point. 
+    * Encrypt data within your applications with the AWS Encryption SDK data encryption library.
     * Encrypt EBS volume using KMS.
 1. [CloudHSM](https://aws.amazon.com/cloudhsm/) Encryption Key Generator. Manage single-tenant hardware security modules (HSMs) on AWS.
     * Generate and use cryptographic keys on dedicated FIPS 140-2 Level 3 single-tenant HSM instances. Deploy workloads with high reliability and low latency, and help meet regulatory compliance. Pay by the hour, and backup and shut down HSMS when they're not needed. Manage HSM capacity and control your costs by adding and removing HSMs from your cluster.
