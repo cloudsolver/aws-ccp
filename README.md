@@ -1,6 +1,6 @@
 # Good Luck with the AWS Cloud Practitioner Certification Exam!
 
-This is a good certification to get the chance to orient the latest developments in AWS. For example, I got to learn about AWS Wavelength and Local Zones that was new to me. There are many new services that AWS had developed because it's basically our fault for asking for them. I learned about various new 'lens' that offer a focus are e.g. serverless lens.
+This is a good certification because it is the only one where you get the chance to learn about most AWS offerings. "AWS has over 200 fully featured services for a wide range of technologies, industries, and use cases.". Cloud is an essential component of digital transformation. Speed to market is improved while lowering TCO via multi-tenancy.  There are various whitepapers but the AWS Services Overview whitepaper is about 84 pages and you get to learn about AWS Global Infrastructure such as the new _AWS Wavelength_ and _Local Zones_. There are many new services that AWS had developed over the past few years and this exam has been refreshed because of it. It's basically our fault. You learn about the _Well Architected Framework_ and the various 'lenses' that are offer with a define focus. I am particularly interested in exploring the serverless lens. Do you know the difference between Inspector and GuardDuty? Did you know that AWS Systems Manager can deploy OS and software patches across a large group of EC2 instances? Did you know Control Tower can centrally govern and enforce best use of AWS services across all your accounts? That AWS provides a Pricing Calculator for estimates for your workload by region? That Personal Health Dashboard can alert you to events that impact your AWS environment?
 ## AWS Cloud Practioner Certification CLF-C01 Prep Notes 2023
 
 This repository contains various resources to help pass the AWS Cloud Practioner Certification. The goal is for you to get certified in 2 weeks of effort or less.
@@ -25,14 +25,14 @@ This repository contains various resources to help pass the AWS Cloud Practioner
 _Out of scope:_ Business Applications, design, code, implementation, troubleshooting, migration, load testing etc.
 <img src="./assets/pexels-prateek-katyal-6298482.jpg" width="350px"/>
 
-Image Source: [Prateek Katyal (support)](https://www.paypal.com/cgi-bin/webscr?business=add.prateek%40gmail.com&cmd=_donations&currency_code=USD&item_name=Prateek+Katyal+-+Pexels&item_number=https%3A%2F%2Fwww.pexels.com%2Fphoto%2Finspirational-quote-printed-on-paper-6298482%2F&lc=US&notify_url=https%3A%2F%2Fwww.pexels.com%2Fcallback%2Fdonation%2Fpaypal%2F1395826%2F%3Ftoken%3DbWVkaXVtX2lkPTYyOTg0ODImbm9uY2U9d2M2M2lxMHhFaGVYNmFUdlpOLUVMZyZzZW5kZXJfaWQ9&return=https://pexels.com/@prateekkatyal/)
+Image Source: [Prateek Katyal (Paypal support link)](https://www.paypal.com/cgi-bin/webscr?business=add.prateek%40gmail.com&cmd=_donations&currency_code=USD&item_name=Prateek+Katyal+-+Pexels&item_number=https%3A%2F%2Fwww.pexels.com%2Fphoto%2Finspirational-quote-printed-on-paper-6298482%2F&lc=US&notify_url=https%3A%2F%2Fwww.pexels.com%2Fcallback%2Fdonation%2Fpaypal%2F1395826%2F%3Ftoken%3DbWVkaXVtX2lkPTYyOTg0ODImbm9uY2U9d2M2M2lxMHhFaGVYNmFUdlpOLUVMZyZzZW5kZXJfaWQ9&return=https://pexels.com/@prateekkatyal/)
 
 ## AWS Cloud Practitioner 2023 Study Notes
 A few questions to get you warmed up!
 * What is the value of the cloud?
 * What is the AWS shared responsibility model?
 * What are AWS security best practices?
-* How does AWS Cloud model costs?
+* How would you estimate AWS Cloud for your workloads before migration?
 * What are the economics of the cloud?
 * What are AWS billing practices?
 * What are the core AWS services offered?
