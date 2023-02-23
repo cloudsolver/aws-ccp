@@ -26,7 +26,20 @@ _16% of the exam_questions about 8-10 questions_
     * Computer Time - no charge for times that code is not running.
     * Duration - duration of compute and memory usage while execution is counted.
     * Free Tier - the free tier includes 1 million free requests each month
-    
+* S3 Pricing
+    * Storage Class
+    * Storage - number of items, and size.
+    * Data transfer - outbound.
+    * Request and data retrieval - number of requests made.
+* RDS Pricing
+    * Running Clock Hours
+    * Type of Database - brand, size, memory class etc
+    * Storage - amount of data
+    * Purchase type - on-demand, reserved instance
+    * DB count - number of instance
+    * API - number of calls
+    * Deployment type - is it multi-AZ
+    * Outbound - data transfer
    ## Pricing, Billing and Governance
     Compute, storage and outbound data transfer is where the costs are for AWS. Data in flight moving between system. Data movement within the AWS region are usually not charged. Data out of AWS to end user is where the data transfer costs are.
     How AWS Pricing Works [whitepaper](https://docs.aws.amazon.com/pdfs/whitepapers/latest/how-aws-pricing-works/how-aws-pricing-works.pdf)
@@ -57,12 +70,7 @@ _16% of the exam_questions about 8-10 questions_
     1. [Cost Explorer](https://aws.amazon.com/aws-cost-management/aws-cost-explorer/)
         * Visualize, understand, and manage your AWS costs and usage over time.
         * Forecast, build custom apps that use it's apis, and use granular filtering offered by it's analytical engine.
-    1. [Support Plans](https://aws.amazon.com/premiumsupport/plans/)
-       1. Basic - free. Email support only and discussion forums.
-       1. Developer - $29 pm : development and testing. 1 contact. Cloud support associate via email during business hours.
-       1. Business - $100 pm : production workloads. Unlimited contact. Full Trusted Advisory. Email, phone and chat 24/7. Production system down - less than one hour.
-       1. Enterprise - $15k pm : mission-critical production workloads. Technical Account Manager, Concierge support team, infrastructure event. Less than 15m for business critical system down.
-    1. [Organizations](https://aws.amazon.com/organizations/)
+       1. [Organizations](https://aws.amazon.com/organizations/)
         * Centrally manage your environment as you scale your AWS resources. Consolidate billing, save costs via volume discounts + reserved instance sharing and govern accounts centrally.
         * Programmatically create AWS accounts as you scale at no additional charge.
         * Centrally secure and audit. Manage and optimize costs centrally. Group accounts and apply policies across.
@@ -105,19 +113,23 @@ _16% of the exam_questions about 8-10 questions_
         * SSL/TLS certificates are supported.
         * Use key management for certs and get managed certificate renewal.
         * Integrates with Elastic Load Balancing, API Gateway and more.
-    1. S3 Pricing
-        * Storage Class
-        * Storage - number of items, and size.
-        * Data transfer - outbound.
-        * Request and data retrieval - number of requests made.
-    1. RDS Pricing
-        * Running Clock Hours
-        * Type of Database - brand, size, memory class etc
-        * Storage - amount of data
-        * Purchase type - on-demand, reserved instance
-        * DB count - number of instance
-        * API - number of calls
-        * Deployment type - is it multi-AZ
-        * Outbound - data transfer
 
-     ##  [BACK](./03-AWS_Security_Best_Practices.md)  |  [NEXT](./README.md)
+ ## [Support Plans](https://aws.amazon.com/premiumsupport/plans/)
+ 
+   1. Basic - free. 
+    * Email support only and discussion forums.
+   1. Developer - $29 pm : 
+    * Fordevelopment and testing. 
+    * 1 contact. 
+    * Cloud support associate via email during business hours.
+   1. Business - $100 pm : 
+    * Production workloads. 
+    * Unlimited contact.
+    * Full Trusted Advisory. 
+    * Email, phone and chat 24/7. Production system down - less than one hour.
+   1. Enterprise - $15k pm
+    * Mission-critical production workloads. 
+    * Exclusive: Technical Account Manager, Concierge support team, infrastructure event support. 
+    * Less than 15m for business critical system down.
+
+ ##  [BACK](./03-AWS_Security_Best_Practices.md)  |  [NEXT](./README.md)

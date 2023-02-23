@@ -56,7 +56,11 @@
     * Private subnet: The subnet does not have a direct route to an internet gateway. Resources in a private subnet require a NAT device to access the public internet.
     * VPN-only subnet: The subnet has a route to a Site-to-Site VPN connection through a virtual private gateway. The subnet does not have a route to an internet gateway.
     * A subnet CIDR reservation is a range of IPv4 or IPv6 addresses that you set aside so that AWS can't assign them to your network interfaces. 
-
+1. [NACL versus Security Group](https://gocloudtech.medium.com/aws-security-groups-vs-nacl-whats-the-difference-a38b9eb6796b)
+    * NACL is stateless and allow one-way traffic i.e. separatly specific inbound and outbound traffic to the subnet.
+    * NACL allow and deny rules are supported. NACLs have an implicit deny. NACL rules are processed in order.
+    * Security Group is stateful i.e. rules for inbound and outbound to EC2 instances are same. They allow return traffic.
+    * Security Group only supports allow rules. 
 1. [CloudFront](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
     * A Content Delivery Network (CDN)
     * Provides low latency for content delivery.
