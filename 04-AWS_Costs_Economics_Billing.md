@@ -2,14 +2,15 @@
 
 _16% of the exam_questions about 8-10 questions_
 
-* EC2 Instances are priced as follows
+* EC2 Instances are [priced](https://aws.amazon.com/ec2/pricing/) as follows
     * On-Demand: EC2 capacity billed to the second.
         * Pay for what you use.
         * Use case: Applications are under development, workloads are not expected to run for more than a year, no upfront payment or long-term committment, unpredictable workloads but don't want to be interrupted.
         * On-Demand Capacity Reservation: It is possible to buy upfront capacity to mitigate against capacity contraints in an AZ.
     * Spot: unused EC2 capacity on sale.
         * Pay the least but no guarantee of runtimes or interruptions.
-        * Use case: Start and stop time of the workload does not matter. 90% savings over On-Demand. When your workload is feasable only at the lowest pricepoints. Spot price in effect at the beginning of each hour.
+        * Use case: Start and stop time of the workload does not matter. 90% savings over On-Demand. When your workload is feasable only at the lowest price points. 
+        * Spot price in effect at the beginning of each hour.
     * Reserved: Upfront capacity reservation committment for long running workloads.
         * Pay upfront with a contract to get discounts.
         * Use case: Save 75% versus On-Demand and willing to pay upfront for 1 or 3 year reservation. 
