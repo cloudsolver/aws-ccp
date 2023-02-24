@@ -59,7 +59,7 @@ Use the search feature for easy access.
     * You grant users in one AWS account access to resources in another AWS acccount using roles.
     * Attach a role to an EC2 instance for access to S3. Applications running on that instance will have access to S3 via roles. This is useful because the application will not need credentials or access keys. This is most secure.
 1. Policies
-    * You manage persmissions for IAM users, groups, and roles by creating a policy document in JSON format and attaching it.
+    * You manage persmissions for IAM users, groups, and roles by creating a policy document in JSON format and attaching it. The policy itself is decoupled from IAM identitieis.
     * User - {Policy:Access} - Resource
     * Developer Group = {Policy: Resource Access} - Resource
     * Role - {Policy:Allow-S3-Access} - S3
