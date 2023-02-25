@@ -1,5 +1,5 @@
 # Good Luck with the AWS Cloud Practitioner Certification Exam!
-
+I passed the AWS CCP on Feb 24 2023 with 15 days of review and without spending any money other than the cost of the exam. I developed these notes for those who are trying to get into Cloud. If you're on github and looking for this type of contact - that's great!
 This is a good certification because it is the only one where you get the chance to learn about most AWS offerings. "AWS has over 200 fully featured services for a wide range of technologies, industries, and use cases.". Cloud is an essential component of digital transformation. Speed to market is improved while lowering TCO via multi-tenancy.  There are various whitepapers but the AWS Services Overview whitepaper is about 84 pages and you get to learn about AWS Global Infrastructure such as the new _AWS Wavelength_ and _Local Zones_. There are many new services that AWS had developed over the past few years and this exam has been refreshed because of it. It's basically our fault. You learn about the _Well Architected Framework_ and the various 'lenses' that are offer with a define focus. I am particularly interested in exploring the serverless lens. Do you know the difference between Inspector and GuardDuty? Did you know that AWS Systems Manager can deploy OS and software patches across a large group of EC2 instances? Did you know Control Tower can centrally govern and enforce best use of AWS services across all your accounts? That AWS provides a Pricing Calculator for estimates for your workload by region? That Personal Health Dashboard can alert you to events that impact your AWS environment?
 ## AWS Cloud Practioner Certification CLF-C01 Prep Notes 2023
 
@@ -41,6 +41,20 @@ A few questions to get you warmed up!
 * What are the database technologies offered by AWS?
 * What are the various storage options on AWS?
 * What are the common use-cases that AWS can support?
+* What is a Service Control Policy?
+* What is a Security Group?
+* What is a NACL?
+* What is EC2?
+* What is an IG?
+* What is a Subnet?
+* What is a VPC?
+* How do you access an EC2 instance?
+* How to ensure high availability across EC2 instances?
+* How to create a hybrid cloud architecture?
+* What is a storage gateway?
+* What is ELB?
+* What is EFS?
+* What is S3?
 
 
 ## [NEXT](./01-Value_Of_AWS_Cloud.md)

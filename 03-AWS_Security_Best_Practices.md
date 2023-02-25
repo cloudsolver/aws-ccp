@@ -100,7 +100,7 @@ Use the search feature for easy access.
 
 # Data Encryption and Secrets Management Services
 
-1. [KMS](https://aws.amazon.com/kms/) 
+1. [KMS](https://aws.amazon.com/kms/) Key Management
     * Key Management Service is multi-tenant encryption key management service. 
     * Create and control encryption keys managed by AWS used to encrypt or digitally sign your data.
     * Centrally manage keys and define policies across integrated services and application from a single point. 
@@ -109,9 +109,14 @@ Use the search feature for easy access.
 1. [CloudHSM](https://aws.amazon.com/cloudhsm/) Encryption Key Generator. 
     * Manage single-tenant hardware security modules (HSMs) on AWS.
     * Use case: Generate and use cryptographic keys on dedicated FIPS 140-2 Level 3 single-tenant HSM instances. Deploy workloads with high reliability and low latency, and help meet regulatory compliance. Pay by the hour, and backup and shut down HSMS when they're not needed. Manage HSM capacity and control your costs by adding and removing HSMs from your cluster.
-1. [Secrets Manager](https://aws.amazon.com/secrets-manager/) centrally manage the lifecycle of secrets.
+1. [Secrets Manager](https://aws.amazon.com/secrets-manager/) Secrets Management
     * Use cases: Store secrets securely, manage acess with fine-grained policies, automate secrets rotation, audit and monitor secrets usage.
     * Database credentials, API keys, encrypt secrets at rest, integreates with RDS, DOcumentDB, Redshift.
     * Retrieve database credentials needed for your application code.  Secrets Manager allows you to retrieve database credentials with a call to Secrets Manager APIs, removing the need to hardcode sensitive information in plain text within your application code.
+1. [AWS Certificate Manager](https://aws.amazon.com/certificate-manager/) Certificate Manager
+    * Provisiong public and private certificats for free.
+    * SSL/TLS certificates are supported.
+    * Use key management for certs and get managed certificate renewal.
+    * Integrates with Elastic Load Balancing, API Gateway and more.
 
 ##  [BACK](02-AWS_Shared_Responsibility_Model.md)  |  [NEXT](./04-AWS_Costs_Economics_Billing.md)

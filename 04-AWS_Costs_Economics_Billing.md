@@ -111,11 +111,7 @@ _16% of the exam_questions about 8-10 questions_
     1. [AWS License Manager](https://aws.amazon.com/license-manager/)
         * AWS and on-premise license manager.
         * Fine-tune your license costs.
-    1. [AWS Certificate Manager](https://aws.amazon.com/certificate-manager/)
-        * Provisiong public and private certificats for free.
-        * SSL/TLS certificates are supported.
-        * Use key management for certs and get managed certificate renewal.
-        * Integrates with Elastic Load Balancing, API Gateway and more.
+ 
 
  ## [Support Plans](https://aws.amazon.com/premiumsupport/plans/)
  
