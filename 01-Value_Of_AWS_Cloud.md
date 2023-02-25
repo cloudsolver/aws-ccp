@@ -80,12 +80,12 @@ Amazon EC2 is hosted in multiple locations world-wide. These locations are compo
 
 
  # Leveraging the Well-Architected Framework
-[AWS Well Architected](https://aws.amazon.com/architecture/well-architected/?wa-lens-whitepapers.sort-by=item.additionalFields.sortDate&wa-lens-whitepapers.sort-order=desc&wa-guidance-whitepapers.sort-by=item.additionalFields.sortDate&wa-guidance-whitepapers.sort-order=des=) helps cloud architects build secure, high-performaning, resilient, and efficient infrastructure for a variety of applications and workloads.
+[AWS Well Architected](https://aws.amazon.com/architecture/well-architected/?wa-lens-whitepapers.sort-by=item.additionalFields.sortDate&wa-lens-whitepapers.sort-order=desc&wa-guidance-whitepapers.sort-by=item.additionalFields.sortDate&wa-guidance-whitepapers.sort-order=des=) helps cloud architects build secure, high-performing, resilient, and efficient infrastructure for a variety of applications and workloads.
 
 1. Operational Excellence
     * Plan for and anticipate failure. 
     * Deploy smaller, reversible changes. 
-    * Script operations as code. 
+    * Script infrastructure as code. 
     * Learn from failure and refine.
     * Use case: AWS CodeCommit for versioning application as well as infrastructure.
 1. Security

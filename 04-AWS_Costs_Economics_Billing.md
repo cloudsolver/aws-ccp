@@ -2,20 +2,22 @@
 
 _16% of the exam_questions about 8-10 questions_
 
-* EC2 Instances are [priced](https://aws.amazon.com/ec2/pricing/) as follows
+* [EC2 Instances](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-purchasing-options.html) are [priced](https://aws.amazon.com/ec2/pricing/) as follows
     * On-Demand: EC2 capacity billed to the second.
         * Pay for what you use.
         * Use case: Applications are under development, workloads are not expected to run for more than a year, no upfront payment or long-term committment, unpredictable workloads but don't want to be interrupted.
         * On-Demand Capacity Reservation: It is possible to buy upfront capacity to mitigate against capacity contraints in an AZ.
     * Spot: unused EC2 capacity on sale.
-        * Pay the least but no guarantee of runtimes or interruptions.
+        * Pay the least but no guarantee of runtimes or interruptions. A 2-minute warning is provided via instance meta-data that your application should check for and prepare for shutdown.
         * Use case: Start and stop time of the workload does not matter. 90% savings over On-Demand. When your workload is feasable only at the lowest price points. 
         * Spot price in effect at the beginning of each hour.
     * Reserved: Upfront capacity reservation committment for long running workloads.
         * Pay upfront with a contract to get discounts.
         * Use case: Save 75% versus On-Demand and willing to pay upfront for 1 or 3 year reservation. 
         * Flexibility: All upfront, partial upfront or no upfront is possible. A contract is required. Provides convertible types at 54% discount - change tenancy, OS or region.
-    * Dedicated: Dedicated bare metal rental and host exclusively for you.
+    * Dedicated Instance and Dedicated Host: 
+        * [Dedicated Host](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/dedicated-hosts-overview.html): Dedicated bare metal rental and host exclusively for you to install software that have licensing tied to host size.
+        * [Dedicated Instance](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/dedicated-instance.html): Instances run on VPCs on a hardware dedicated to a single customer.
         * Use Case: Save 70% off of On-Demand. Software that is licensed based on per-core, per-socket or per-VM. Regulations that require tenancy exclusivity.
         * Dedidicated host is a physical server, dedicated instance runs on a host.
     * Savings Plan: Compute usage committment for 1 or 3 years applicable across multiple compute services.
@@ -49,6 +51,7 @@ _16% of the exam_questions about 8-10 questions_
         * Minimize capital expenditures.
         * Utilize reserved instances.
         * Right size your resources.
+        * Does not consider Networking or Data costs. No personnel or facilities costs.
     1. [AWS Price List API](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/price-changes.html)
         * Query the price of AWS Services using JSON or CSV. Bulk price or individual APIs.
         * Receive price alerts when prices change.

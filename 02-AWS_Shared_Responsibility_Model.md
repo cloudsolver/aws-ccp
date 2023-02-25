@@ -9,12 +9,17 @@ As a customer of AWS - you are not responsible for the hardware, software, netwo
 
 Depending on the Cloud Model - AWS and it's customer share responsibilities for different layers. However, the customer is Never responsible for the virtualization or the underlying physical infrastructure.
 
-1. Shared Controls
+1. Inherited Controls (AWS only)
+    * Controls which a customer fully inherits from AWS.
+    * Physical and Environmental controls
+1. Shared Controls (AWS and Customer)
     * Patch Management
     * Configuration Management
     * Awareness & Training
-1. Customer Controls
-    * Zone Security, Service and Communications Protection
+1. Customer Controls (Customer only)
+    * Service and Communications Protection
+    * Zone Security
+        * which may require a customer to route or zone data within specific security environments.
 
 <img src="https://img.alicdn.com/tfs/TB1WyglO7voK1RjSZFwXXciCFXa-2305-1450.png" width="800px">
 
