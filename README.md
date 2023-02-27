@@ -1,6 +1,7 @@
 # Good Luck with the AWS Cloud Practitioner Certification Exam!
 I passed the AWS CCP on Feb 24 2023 with 15 days of review and without spending any money other than the cost of the exam. I developed these notes for those who are trying to get into Cloud. If you're on github and looking for this type of contact - that's great!
 This is a good certification because it is the only one where you get the chance to learn about most AWS offerings. "AWS has over 200 fully featured services for a wide range of technologies, industries, and use cases.". Cloud is an essential component of digital transformation. Speed to market is improved while lowering TCO via multi-tenancy.  There are various whitepapers but the AWS Services Overview whitepaper is about 84 pages and you get to learn about AWS Global Infrastructure such as the new _AWS Wavelength_ and _Local Zones_. There are many new services that AWS had developed over the past few years and this exam has been refreshed because of it. It's basically our fault. You learn about the _Well Architected Framework_ and the various 'lenses' that are offer with a define focus. I am particularly interested in exploring the serverless lens. Do you know the difference between Inspector and GuardDuty? Did you know that AWS Systems Manager can deploy OS and software patches across a large group of EC2 instances? Did you know Control Tower can centrally govern and enforce best use of AWS services across all your accounts? That AWS provides a Pricing Calculator for estimates for your workload by region? That Personal Health Dashboard can alert you to events that impact your AWS environment?
+
 ## AWS Cloud Practioner Certification CLF-C01 Prep Notes 2023
 
 This repository contains various resources to help pass the AWS Cloud Practioner Certification. The goal is for you to get certified in 2 weeks of effort or less.
@@ -12,12 +13,12 @@ This repository contains various resources to help pass the AWS Cloud Practioner
 1. [AWS Certified Cloud Practioner](https://aws.amazon.com/certification/certified-cloud-practitioner/) AWS Homepage for CPC certification. Download sample questions and the exam guide. 
 1. [AWS Web Services Overiew](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/introduction.html?did=wp_card&trk=wp_card) : Whitepaper that describes the full offering from AWS. This is an important paper to read and remember before the test.
 1. [Crushing the aws ccp exam](https://www.capitalone.com/tech/cloud/crushing-the-aws-ccp-exam/) An amazing article on `crushing the aws cpc exam` recommended resources linked.
-    1. [“Training Notes 2021” by Neal Davis:](https://www.amazon.com/Certified-Cloud-Practitioner-Training-Notes/dp/1073015513/ref=sr_1_3?dchild=1&keywords=aws+certified+cloud+practitioner+neal+davis&qid=1610118897&s=books&sr=1-3)
-    1. [Cloud Guru Videos:](https://learn.acloud.guru/course/aws-certified-cloud-practitioner/dashboard)
-    1. [Dojo Practice Exams:](https://portal.tutorialsdojo.com/courses/free-aws-certified-cloud-practitioner-practice-exams-sampler/)
-    1. [Udemy “AWS Certified Cloud Practitioner: 500 Practice Exam Questions”:](https://www.udemy.com/share/101Xl6AEATeVlWRnsB/)
-    1. [Udemy “AWS Certified Cloud Practitioner: 6 Full Practice Exams 2021”:](https://www.udemy.com/share/1013maAEATeVlWRnsB/)
-    1. [DigitalCloud Practice Exam:](https://learn.digitalcloud.training/exams/)
+    1. [“Training Notes 2021” by Neal Davis:](https://www.amazon.com/Certified-Cloud-Practitioner-Training-Notes/dp/1073015513/ref=sr_1_3?dchild=1&keywords=aws+certified+cloud+practitioner+neal+davis&qid=1610118897&s=books&sr=1-3) - I did not use this.
+    1. [Cloud Guru Videos:](https://learn.acloud.guru/course/aws-certified-cloud-practitioner/dashboard) - I went through their free videos.
+    1. [Dojo Practice Exams:](https://portal.tutorialsdojo.com/courses/free-aws-certified-cloud-practitioner-practice-exams-sampler/) - I took the free tests.
+    1. [Udemy “AWS Certified Cloud Practitioner: 500 Practice Exam Questions”:](https://www.udemy.com/share/101Xl6AEATeVlWRnsB/) - I did not use it.
+    1. [Udemy “AWS Certified Cloud Practitioner: 6 Full Practice Exams 2021”:](https://www.udemy.com/share/1013maAEATeVlWRnsB/) - I took a sample test.
+    1. [DigitalCloud Practice Exam:](https://learn.digitalcloud.training/exams/) - Took the free exam.
     1. [DigitalCloud Exam Simulator:](https://learn.digitalcloud.training/exams/exam-simulation-for-aws-cloud-practitioner/)
 1. [YouTube freeCodeCamp](https://www.youtube.com/watch?v=SOTamWNgDKc) freeCodeCamp video is good to review to ensure a full understanding of the broader scope.
 1. AWS training and certification has CLF-001 sample exam questions [here](https://d1.awsstatic.com/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Sample-Questions.pdf)
