@@ -3,13 +3,15 @@
 Good Luck with the AWS Cloud Practitioner Certification Exam! 
 
 I passed the AWS CCP on Feb 24, 2023, with 15 days of review and without spending any money other than the exam cost. I developed these notes for those who are trying to get into Cloud. If you're on github and looking for this type of content - that's great!
-![]("./assets/aws-ccp-score.png")
+
+![](./assets/aws-ccp-score.png)
+<img src="https://d1.awsstatic.com/training-and-certification/certification-badges/AWS-Certified-Cloud-Practitioner_badge.634f8a21af2e0e956ed8905a72366146ba22b74c.png"/>
 This is a good certification because it is the only one where you can learn about most AWS offerings. "AWS has over 200 fully featured services for a wide range of technologies, industries, and use cases.". Cloud is an essential component of digital transformation. Speed to market is improved while lowering TCO via multi-tenancy.  There are various whitepapers, but the AWS Services Overview whitepaper is about 84 pages. You can learn about AWS Global Infrastructure, such as the new _AWS Wavelength_ and _Local Zones_. There are many unique services that AWS has developed over the past few years, and this exam has been refreshed because of it: "It's basically your fault" - CTO, Amazon. You learn about the _Well Architected Framework_ and the various 'lenses' offered with a defined focus. I am particularly interested in exploring the serverless lens. Do you know the difference between Inspector and GuardDuty? Did you know AWS Systems Manager can deploy OS and software patches across many EC2 instances? Did you know Control Tower can centrally govern and enforce the best use of AWS services across all your accounts? That AWS provides a Pricing Calculator for estimates of your workload by region? That Personal Health Dashboard can alert you to events that impact your AWS environment?
 ## AWS Cloud Practioner Certification CLF-C01 Prep Notes 2023
 
 This repository contains various resources to help pass the AWS Cloud Practioner Certification. The goal is to get certified in 2 weeks of effort or less.
 
-<img src="https://d1.awsstatic.com/training-and-certification/certification-badges/AWS-Certified-Cloud-Practitioner_badge.634f8a21af2e0e956ed8905a72366146ba22b74c.png"/>
+
 
 ## Resources
 
