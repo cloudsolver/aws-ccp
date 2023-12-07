@@ -76,7 +76,7 @@ Use the search feature for easy access.
     * Receive real-time notifications of suspected DDoS incidents via CloudWatch metrics and assistance from AWS during the attack.
     * Automatically scrub bad traffic at specific layers: layer 3,4 and 7. Minimize application downtime and latency. Monitor and protect up to 1000 resource types.
 1. [Macie](https://aws.amazon.com/macie/) Sensitive Data
-    * hHelps you discover and protect sensitive data. Uses maching learning, evaluates S3 environment, uncovers PII information. 
+    * Helps you discover and protect sensitive data. Uses maching learning, evaluates S3 environment, uncovers PII information. 
     * Use cases: discover passport numbers stored on S3 using Macie. Find SSNs in S3 files.
 1. [Config](https://aws.amazon.com/config/) Audit config
     * Assess, audit, and evaluate configurations of your resources.
