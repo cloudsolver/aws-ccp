@@ -27,7 +27,7 @@ The following cloud terminology is important for the exam:
 1. Durability
     * AWS provides data services that offer long-term data protection and storage.
 1. Latency
-    * Time elapsed between a user request and reponse. Low latency is a good thing.
+    * Time elapsed between a user request and response. Low latency is a good thing.
 ### Cloud Computing Models
 
 1. IaaS: Infrastructure as a Service e.g.EC2
@@ -37,7 +37,7 @@ The following cloud terminology is important for the exam:
 [Click Here for details](https://aws.amazon.com/what-is-cloud-computing/?pg=TOCC)
 ## Cloud Hosting Models
 
-1. Private Cloud: On-prem virtualization as well as off-prem fully managed private cloud, also with Amazone Outpost
+1. Private Cloud: On-prem virtualization as well as off-prem fully managed private cloud, also with Outpost
 1. Public Cloud: Fully publicly hosted and managed cloud.
 1. Hybrid Cloud: AWS Direct Connect service connects customer's data center with Amazon.
 
@@ -55,12 +55,12 @@ Amazon EC2 is hosted in multiple locations world-wide. These locations are compo
     * All AZs in an AWS Region are interconnected with high-bandwidth, low-latency networking, over fully redundant, dedicated metro fiber providing high-throughput, low-latency networking between AZs. 
     * All traffic between AZs is encrypted. 
     * The network performance is sufficient to accomplish synchronous replication between AZs. 
-    * If applications are distrbuted - deploy to multiple AZs with load balancing.
+    * If applications are distributed - deploy to multiple AZs with load balancing.
 1. [Data Center](https://aws.amazon.com/compliance/data-center/data-centers/)
     * Two or more data centers together are part of an AZ.
     * Each data center has protections across 4 layers:
     * Perimeter - secured perimeter for physical access.
-    * Infrastrucutre - HVAC, power, fire suppression.
+    * Infrastructure - HVAC, power, fire suppression.
     * Data - servers within the building, racked and stacked.
     * Environment - site location, seismic data, flooding etc.
 1. [Local Zones](https://aws.amazon.com/about-aws/global-infrastructure/localzones/)
@@ -74,7 +74,7 @@ Amazon EC2 is hosted in multiple locations world-wide. These locations are compo
 1. [Global Edge Network](https://aws.amazon.com/cloudfront/features/?p=ugi&l=na&whats-new-cloudfront.sort-by=item.additionalFields.postDateTime&whats-new-cloudfront.sort-order=desc) 
     * Amazon CloudFront peers with thousands of Tier 1/2/3 telecom carriers globally.
     * CloudFront is well connected with all major access networks for optimal performance, and has hundreds of terabits of deployed capacity. 
-    * CloudFront edge locations are connected to the AWS Regions through the AWS network backbone - fully redundant, multiple 100GbE parallel fiber that circles the globe and links with tens of thousands of networks for improved origin fetches and dynamic content acceleration.these are cached closest to audience.
+    * CloudFront edge locations are connected to the AWS Regions through the AWS network backbone - fully redundant, multiple 100GbE parallel fiber that circles the globe and links with tens of thousands of networks for improved origin fetches and dynamic content acceleration.these are cached closest to the audience.
     * Mini-data centers created for low latency between applications and users.
     * There are many more edge locations than AZs or regions.
 
@@ -106,7 +106,7 @@ Amazon EC2 is hosted in multiple locations world-wide. These locations are compo
     * Use serverless architectures first.
     * Use multi-region deployments.
     * Delegate tasks to a cloud vendor.
-    * Experiement with virtual resources.
+    * Experiment with virtual resources.
     * Use Case: Lambda to run serverless compute workloads.
 1. Cost Optimization
     * Utilize consumption-based pricing.
